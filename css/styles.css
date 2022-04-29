@@ -1,0 +1,190 @@
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15% 7% 15%;
+}
+
+h1, h2, h3, .nav-link, .download-btn, .download-btn-black {
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+h2, h3, .navbar-brand {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+/* Navigation bar  */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+}
+
+.navbar-nav {
+    margin-right: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: thin;
+    color: white;
+}
+
+/* Download Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.download-btn-black {
+    color:black;
+    margin: 5% 3% 5% 0;
+}
+
+/*Title image*/
+
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+@media (max-width: 991px) {
+
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        width: 40%;
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+
+/*Features*/
+
+#features {
+    position: relative;
+    background-color: white;
+}
+
+.feature {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature i {
+    color: #ef8172;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.feature i:hover{
+    color: #ff4c68;
+}
+
+
+.feature p {
+    color: #8f8f8f;
+}
+
+/* Testimonial and Press Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;;
+    color: white;
+}
+
+#testimonials img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 12%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/*Pricing section*/
+
+.card {
+    text-align: center;
+}
+
+.column-card {
+    padding: 3% 2%;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+/* Call to Action */
+
+#cta {
+    color: white;
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#cta h3 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*Footer*/
+
+#footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
